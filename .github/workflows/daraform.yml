@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - demo_dataform
   pull_request:
     branches:
-      - master
+      - demo_dataform
  
 jobs:
   compile:
