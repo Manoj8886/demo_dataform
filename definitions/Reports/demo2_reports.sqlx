@@ -4,4 +4,4 @@ config {
   description: "Contains employees detail"
 }
 
-select * from ${ref("employees")}
+select * from ${ref("Employees_details")}
