@@ -1,0 +1,7 @@
+config {
+  type: "table",
+  schema: "reports",
+  description: "Contains employees detail"
+}
+
+select * from ${ref("employees")}

@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "fast-cascade-369003",
+  schema: "SOURCE",
+  name: "EMPLOYEE",
+  description: "Contains employees detail"
+};

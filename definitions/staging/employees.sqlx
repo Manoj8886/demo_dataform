@@ -1,0 +1,7 @@
+config {
+  type: "view",
+  schema: "staging",
+  description: "Contains employees detail"
+}
+
+select * from ${ref("EMPLOYEE")}
