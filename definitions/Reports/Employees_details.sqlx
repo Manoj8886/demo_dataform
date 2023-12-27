@@ -4,6 +4,4 @@ config {
   description: "Contains employees detail"
 }
 
-select * from ${ref("employees")}
-
---Testing
+select * from ${ref("employees")} where 1=0
