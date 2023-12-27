@@ -30,7 +30,7 @@ jobs:
       - name: Checkout code into workspace directory
         uses: actions/checkout@v2
         with:
-          ref: 'demo3_workspace'  # Change 'main' to your main branch name
+          ref: 'main'  # Change 'main' to your main branch name
       - name: Merge changes from the feature branch
         run: |
           git merge ${{ github.event.before }}  # Assumes the commit hash of the last commit in the pull request
